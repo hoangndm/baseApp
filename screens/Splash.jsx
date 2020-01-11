@@ -22,7 +22,7 @@ export default class Splash extends Component<Props> {
 
     initApp = async () => {
         setTimeout(() => {
-            this.props.navigation.navigate('Home');
+            this.props.navigation.navigate('Classes');
         }, 1000);
     }
 

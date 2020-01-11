@@ -69,7 +69,7 @@ export default base = StyleSheet.create({
         backgroundColor: '#5f3965'
     },
     bgBlue: {
-        backgroundColor: '#6accfd',
+        backgroundColor: '#1b90d1',
     },
     bgGray: {
         backgroundColor: '#e3e2e2',

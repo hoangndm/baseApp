@@ -1,19 +1,29 @@
 import { StyleSheet } from 'react-native';
 
 export default styles = StyleSheet.create({
-    note: {
-        position: 'absolute',
-        right: -10,
-        top: -5,
-        width: 17,
-        height: 17,
-        backgroundColor: '#f15e22',
-        borderRadius: 10,
-        justifyContent: 'center'
+    container: {
+        width: '100%',
+        height: 100,
+        backgroundColor: '#04a5fa',
+        borderBottomLeftRadius: 50,
+        alignItems: "center",
     },
-    noteText: {
-        fontSize: 10,
-        color: '#fff',
-        textAlign: 'center'
+
+    navBar: {
+        flexDirection: 'row',
+        width: '100%',
+        top: 30
     },
+
+    navBarItem: {
+        flexDirection: 'row',
+        width: '60%',
+        alignItems: 'center'
+    },
+
+    titleScreen: {
+        fontSize: 15,
+        fontWeight: 'bold',
+    }
+
 });

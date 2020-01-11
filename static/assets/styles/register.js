@@ -10,7 +10,7 @@ export default base = StyleSheet.create({
   },
 
   infoLogo: {
-    top: 90,
+    top: 80,
     left: 37,
     width: '80%',
     height: 150,
@@ -38,48 +38,33 @@ export default base = StyleSheet.create({
     fontSize: 18,
     color: '#484747',
     fontWeight: '600',
-    marginTop: 10,
+    marginTop: 15,
     left: 35,
-    alignItems: 'flex-end'
   }, 
-
-  textBtnForget: {
-    fontSize: 13,
-    color: '#1b90d1',
-    fontWeight: '500'
-    
-  },
 
   formControl: {
     alignSelf: 'center',
     width: '80%',
     borderBottomWidth: 1,
     marginBottom: 5,
-    borderBottomColor: '#e0e0e0'
+    borderBottomColor: '#e0e0e0',
+    marginTop: -15,
   },
 
-  btnLogin: {
-    width: '90%',
+  btnRegister: {
+    width:'90%',
     alignItems: 'center',
     backgroundColor: '#1b90d1',
-    position: 'relative',
-    zIndex:400,
-    top: 60,
+    top: 20,
     height: 50,
     borderRadius: 35,
   },
 
-  textBtnLogin: {
+  textBtnRegister: {
     lineHeight: 50,
     fontSize:16,
     fontWeight: 'bold',
     color: '#fff',
-  },
-
-  btnRadio: {
-    width: '100%',
-    left: 30,
-    top: 30
   },
 
   iconRight: {
@@ -88,4 +73,10 @@ export default base = StyleSheet.create({
     marginTop: 15,
   },
 
+  imageHeader: {
+    width:'100%',
+    margin: 0,
+    top: 50,
+    alignItems: 'center',
+  }
 });

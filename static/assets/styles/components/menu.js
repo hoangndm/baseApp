@@ -8,7 +8,8 @@ export default styles = StyleSheet.create({
         alignSelf: 'center',
         width: 40,
         height: 40,
-        position: 'relative'
+        position: 'relative',
+        marginLeft: 10,
     },
     note: {
         position: 'absolute',
