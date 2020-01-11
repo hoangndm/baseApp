@@ -55,34 +55,22 @@ export default class Classes extends Component < Props > {
     }
 
     render() {
-        return ( <
-            View style = {
-                [base.flex1, base.positionRelative, base.w100]
-            }
-            onLayout = {
-                this.initComponent
-            } >
-            <
-            Navbar / >
-            <
-            View style = {
+        return ( 
+            <View style = {[base.flex1, base.positionRelative, base.w100]} onLayout = {this.initComponent}>
+            <Navbar/>
+            <View style = {
                 styles.container
-            } >
-            <
-            Text style = {
+            }>
+            <Text style = {
                 styles.title
-            } > NĂM HỌC 2018 - 2019 HỌC KỲ 1 < /Text> <
-            /View> <
-            View style = {
+            } > NĂM HỌC 2018 - 2019 HỌC KỲ 1 </Text> 
+            </View> 
+            <View style = {
                 styles.content
-            } >
-            <
-            View >
+            }>
+            </View>
 
-            <
-            /View> <
-            /View> <
-            /View>
+            </View> 
         )
     }
 }
