@@ -1,4 +1,4 @@
-package com.rollcall;
+package com.smm;
 
 import com.facebook.react.ReactActivity;
 

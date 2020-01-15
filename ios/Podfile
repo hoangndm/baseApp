@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'rollcall' do
-  # Pods for rollcall
+target 'smm' do
+  # Pods for smm
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -28,7 +28,7 @@ target 'rollcall' do
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
 
-  target 'rollcallTests' do
+  target 'smmTests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -36,10 +36,10 @@ target 'rollcall' do
   use_native_modules!
 end
 
-target 'rollcall-tvOS' do
-  # Pods for rollcall-tvOS
+target 'smm-tvOS' do
+  # Pods for smm-tvOS
 
-  target 'rollcall-tvOSTests' do
+  target 'smm-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

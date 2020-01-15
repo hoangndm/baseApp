@@ -12,7 +12,7 @@ class AuthService{
     * @return {string}
     */
     static async accessToken(){
-        let token = await AsyncStorage.getItem('rollcallAccessToken');
+        let token = await AsyncStorage.getItem('smmAccessToken');
         if(token){
             return token;
         }
@@ -26,7 +26,7 @@ class AuthService{
     * @return {void}
     */
     static async setAccessToken(accessToken){
-        await AsyncStorage.setItem('rollcallAccessToken', accessToken);
+        await AsyncStorage.setItem('smmAccessToken', accessToken);
     }
 
     /**
@@ -43,7 +43,7 @@ class AuthService{
     * @returns {void}
     */
     static async logOut(){
-        await AsyncStorage.removeItem('rollcallAccessToken');
+        await AsyncStorage.removeItem('smmAccessToken');
     }
 
     /**
@@ -52,7 +52,7 @@ class AuthService{
     * @returns {void}
     */
     static async setUser(user){
-        await AsyncStorage.setItem('rollcallUser', JSON.stringify(user));
+        await AsyncStorage.setItem('smmUser', JSON.stringify(user));
     }
 
     /**
@@ -61,7 +61,7 @@ class AuthService{
     * @returns {void}
     */
     static async getUser(){
-        let user = await AsyncStorage.getItem('rollcallUser');
+        let user = await AsyncStorage.getItem('smmUser');
         if(user){
             user = JSON.parse(user);
             return user;

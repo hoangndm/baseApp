@@ -1,5 +1,5 @@
 /**
- * rollcall App
+ * smm App
  * @author: Giang Nguyen
  * @description: Redux action type
  */
