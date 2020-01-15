@@ -1,4 +1,4 @@
-package com.rollcall;
+package com.smm;
 
 import android.app.Application;
 import android.util.Log;

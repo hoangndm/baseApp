@@ -1,5 +1,5 @@
 /**
- * rollcall App
+ * smm App
  * @author: Hoang
  * @description: class Login (Login page)
  */
